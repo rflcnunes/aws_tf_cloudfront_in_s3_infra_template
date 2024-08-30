@@ -1,26 +1,24 @@
 variable "app_local" {
-  type        = string
   description = "The local environment"
-  default     = "development"
+  type        = string
 }
 
-variable "aws_region" {
+variable "bucket_name" {
+  description = "The name of the S3 bucket"
   type        = string
-  description = "Region where the resources will be created"
 }
 
-variable "aws_profile" {
+variable "bucket_arn" {
+  description = "The ARN of the S3 bucket"
   type        = string
-  description = "AWS profile to use"
 }
 
 variable "alternate_domain_name" {
   description = "Alternate domain names (CNAMEs) for the CloudFront distribution"
   type        = string
-  default     = ""
 }
 
-variable "domain_arn" {
+variable "acm_certificate_arn" {
   description = "The ARN of the ACM certificate"
   type        = string
 }
