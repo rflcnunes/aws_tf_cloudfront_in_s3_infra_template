@@ -17,7 +17,6 @@ variable "aws_profile" {
 variable "alternate_domain_name" {
   description = "Alternate domain names (CNAMEs) for the CloudFront distribution"
   type        = string
-  default     = ""
 }
 
 variable "domain_arn" {
