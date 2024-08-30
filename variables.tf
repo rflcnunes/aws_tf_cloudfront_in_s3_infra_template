@@ -15,11 +15,11 @@ variable "aws_profile" {
 }
 
 variable "alternate_domain_name" {
-  description = "Alternate domain names (CNAMEs) for the CloudFront distribution"
   type        = string
+  description = "Alternate domain names (CNAMEs) for the CloudFront distribution"
 }
 
 variable "domain_arn" {
-  description = "The ARN of the ACM certificate"
   type        = string
+  description = "The ARN of the ACM certificate"
 }
