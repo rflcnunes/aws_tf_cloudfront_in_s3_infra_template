@@ -1,6 +1,6 @@
-## AWS Terraform CloudFront in S3 Infrastructure Template
+## Infrastrutura AWS com Terraform CloudFront no S3 Template
 
-## Languages
+## Idiomas
 - [English](../../README.md)
 
 Um modelo Terraform para criar infraestrutura AWS com CloudFront integrado ao S3. Use este repositório como base para configurar a distribuição segura e escalável de conteúdo para suas aplicações web.
